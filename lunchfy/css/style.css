@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #3E4156;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: STIXGeneral-Regular;
+}
+
+.header {
+  padding: 50px 30px 50px;
+}
+
+.footer {
+  padding: 12px 0;
+  font-size: 1.3rem;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
