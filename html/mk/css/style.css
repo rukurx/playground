@@ -104,6 +104,119 @@ main {
   right: 13px;
 }
 
+.hero-project-info-title {
+  height: 73px;
+}
+
+.hero-project-info-title-link h2 {
+  font-size: 20px;
+  margin-top: 12px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.hero-project-info-belongs {
+  position: relative;
+  height: 51px;
+}
+
+.project-owner-img {
+  width: 39px;
+  height: 39px;
+}
+
+.owner-name {
+  position: relative;
+  left: 8px;
+  top: -24px;
+}
+
+.category-name {
+  position: absolute;
+  top: 20px;
+  text-align: left;
+  left: 63px;
+  z-index: 25;
+  height: 18px;
+  line-height: 18px;
+  color: #434343;
+}
+
+.category-name:before {
+    content: "";
+    background: url("../img/category.png") no-repeat 0px 0px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 3px;
+    left: -15px;
+}
+
+.hero-project-info-status {
+  position: relative;
+  height: 45px;
+}
+
+.project-amount {
+  position: relative;
+  height: 45px;
+}
+
+.project-amount dt {
+  position: absolute;
+}
+
+.project-amount dd {
+  position: absolute;
+  right: 3px;
+}
+
+.supporter-time {
+  position: relative;
+}
+
+.project-supporter {
+  position: absolute;
+  left: 0px;
+}
+
+.project-supporter dl {
+  position: relative;
+  width: 250px;
+  height: 47px;
+}
+
+.project-supporter dt {
+  position: absolute;
+  margin-right: 20px;
+}
+
+.project-supporter dd {
+  position: absolute;
+  right: 0px;
+  width: 128px;
+}
+
+.project-time-to-go {
+  position: absolute;
+  right: 0px;
+}
+
+.project-time-to-go dl {
+  position: relative;
+  width: 140px;
+  height: 47px;
+}
+
+.project-time-to-go dt {
+  position: absolute;
+}
+
+.project-time-to-go dd {
+  position: absolute;
+  right: 0px;
+}
+
 #left, #center, #right {
   padding: 10px;
   box-sizing: border-box;
