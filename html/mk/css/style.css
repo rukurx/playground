@@ -1,0 +1,144 @@
+/*
+
+*/
+
+body {
+    /*background: grey;*/
+}
+
+.header {
+  background: grey;
+  width: 100%;
+}
+
+.header-inner {
+  width: 1000px;
+  height: 66px;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  width: 136px;
+  height: 30px;
+  position: absolute;
+  top: 18px;
+}
+
+.search-box {
+  float: left;
+  position: absolute;
+  top: 15px;
+  left: 158px;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  line-height: 66px;
+}
+
+ul.menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+ /*メニューを横並びにする*/
+ul.menu > li {
+  display: inline-block;
+}
+
+/* クリック領域を広げる */
+ul.menu > li > a {
+  display: inline-block;
+  width: 80px;
+  /*height: 40px;*/
+  background: orange;
+  font-size: 16px;
+  text-decoration: none; /* 下線削除 */
+  text-align: center; /* 左右で中央揃えにする */
+  /*line-height: 40px;*/ /* 上下で中央揃え (heightとline-heightの値を合わせる) */
+}
+
+ul.menu > li > a:hover {
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+main {
+  background: skyblue;
+}
+
+.hero {
+  width: 100%;
+  height: 380px;
+}
+
+.hero-project {
+  width: 1000px;
+  height: 287px;
+  margin: auto;
+  background: white;
+  position: relative;
+  top: 46px;
+}
+
+.hero-prject-img {
+  width: 464px;
+  height: 261px;
+  background: black;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.hero-project-info {
+  width: 482px;
+  height: 262px;
+  background: blue;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}
+
+#left, #center, #right {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#left {
+  background: lightgreen;
+  float: left;
+  width: 20%;
+}
+
+#center {
+  background: green;
+  float: left;
+  width: 60%;
+}
+
+#right {
+  background: limegreen;
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+  background: tomato;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}

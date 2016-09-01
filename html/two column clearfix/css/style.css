@@ -1,0 +1,44 @@
+/*
+
+*/
+
+body {
+    /*background: grey;*/
+}
+
+header {
+  background: tomato;
+}
+
+main {
+  background: skyblue;
+}
+
+#right {
+  background: limegreen;
+  float: left;
+  width: 200px;
+}
+
+#left {
+  background: lightgreen;
+  float: left;
+  width: 300px;
+}
+
+footer {
+  clear: both;
+  background: tomato;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  /*background: pink;*/
+}
