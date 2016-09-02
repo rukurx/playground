@@ -98,7 +98,7 @@ main {
 .hero-project-info {
   width: 482px;
   height: 262px;
-  background: blue;
+  /*background: blue;*/
   position: absolute;
   top: 13px;
   right: 13px;
@@ -171,6 +171,29 @@ main {
   right: 3px;
 }
 
+.project-progress-bar {
+  height: 38px;
+  background: grey;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.bar-progress {
+  position: relative;
+  height: 38px;
+  width: 80%;
+  background: green;
+}
+
+.bar-progress p {
+  position: absolute;
+  left: 13px;
+  width: 115px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
 .supporter-time {
   position: relative;
 }
@@ -217,6 +240,64 @@ main {
   right: 0px;
 }
 
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.pickup-project {
+  width: 1000px;
+  margin: 60px auto 0;
+}
+
+.pickup-project-list {
+  margin: 0 -35px 0 0;
+}
+
+.pickup-project-list .project {
+  width: 310px;
+  height: 390px;
+  float: left;
+  background: yellow;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  border-radius: 4px;
+}
+
+.project img {
+  width: 310px;
+  height: 174px;
+}
+
+.latest-project {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 35px;
+  background: white;
+}
+
+.latest-project-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.latest-project-content {
+  width: 230px;
+  height: 196px;
+  background: pink;
+}
+
+.latest-project-content img {
+  width: 230px;
+  height: 129px;
+  background: black;
+}
+
+.latest-project-content p {
+  padding: 10px;
+}
+
 #left, #center, #right {
   padding: 10px;
   box-sizing: border-box;
@@ -249,9 +330,4 @@ footer {
   content: '';
   display: block;
   clear:both;
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
 }
