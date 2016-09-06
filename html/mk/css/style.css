@@ -298,6 +298,28 @@ main {
   padding: 10px;
 }
 
+.return-ranking {
+  width: 1000px;
+  margin: auto;
+}
+
+.return-ranking-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.return {
+  width: 188px;
+  height: 217px;
+  background: yellow;
+}
+
+.return img {
+  width: 188px;
+  height: 106px;
+}
+
 #left, #center, #right {
   padding: 10px;
   box-sizing: border-box;
