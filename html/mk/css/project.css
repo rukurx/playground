@@ -1,2 +1,67 @@
 body {
 }
+
+.header {
+  width: 100%;
+  height: 66px;
+  background: grey;
+}
+
+.header_container {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  background: blue;
+}
+
+.logo {
+  width: 136px;
+  height: 30px;
+  position: absolute;
+  top: 18px;
+  background: black;
+}
+
+.search_box {
+  width: 233px;
+  height: 36px;
+  line-height: 36px;
+  position: absolute;
+  top: 18px;
+  left: 158px;
+}
+
+.navigation {
+  line-height: 66px;
+  position: absolute;
+  right: 0;
+}
+
+ul.menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+ /*メニューを横並びにする*/
+ul.menu > li {
+  display: inline-block;
+}
+
+/* クリック領域を広げる */
+ul.menu > li > a {
+  display: inline-block;
+  width: 80px;
+  /*height: 40px;*/
+  background: orange;
+  font-size: 16px;
+  text-decoration: none; /* 下線削除 */
+  text-align: center; /* 左右で中央揃えにする */
+  /*line-height: 40px;*/ /* 上下で中央揃え (heightとline-heightの値を合わせる) */
+}
+
+ul.menu > li > a:hover {
+  opacity: 0.5;
+  transition: 0.8s;
+}
