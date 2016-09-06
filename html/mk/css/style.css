@@ -301,6 +301,7 @@ main {
 .return-ranking {
   width: 1000px;
   margin: auto;
+  margin-bottom: 35px;
 }
 
 .return-ranking-list {
